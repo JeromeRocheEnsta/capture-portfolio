@@ -52,7 +52,7 @@ const Faq = styled(About)`
     }
     .question{
         padding: 3rem 0rem;
-        cursos: pointer;
+        cursor: pointer;
     }
     .answer{
         padding: 2rem 0rem;
