@@ -68,9 +68,12 @@ const Services = styled(About)`
 const Cards = styled.div`
     display:flex;
     flex-wrap: wrap;
+    @media (max-width: 1300px){
+        justify-content: center;
+    }
 `;
 const Card= styled.div`
-    flex-basis:15rem;
+    flex-basis: 14rem;
     .icon{
         display:flex;
         align-items: center;
